@@ -1,0 +1,72 @@
+/** by default any child is dsplayed on the top of parent**/
+/**height of any boxes depends upon the content and width is depend upon either it is inline or block**/
+/**we can change the default positioning of child and parent by css**/
+/** there are 4 types of positioning static relative absolute fixed**/
+/** static means default without changing the default css**/
+/**relative means relative to static and it does not affets other element**/
+/**absolute means we are shifting relative to closest parent and it affects other elements also**/
+/**fixed means on scrolling it will be fixed wrt closest parent**/
+/**relative
+.red{
+  height:100px;
+  width: 100px;
+  background-color: red;
+  position: relative;
+  left: 200px;
+
+}
+.blue
+{
+  height:100px;
+  width: 100px;
+  position: relative;
+  background-color: blue;
+  bottom:100px;
+}
+.yellow
+{
+  height: 100px;
+  width: 100px;
+  background-color: yellow;
+  position:relative;
+  left:100px;
+  bottom:200px;
+}
+**/
+/**absolute**/
+body{
+  margin:0;
+}
+.red{
+  height:100px;
+  width: 100px;
+  background-color: red;
+  position: absolute;
+  left: 200px;
+  top:200px;
+
+
+}
+.blue
+{
+  height:100px;
+  width: 100px;
+
+  background-color: blue;
+  position: absolute;
+  left:100px;
+  top:100px;
+
+
+
+}
+.yellow
+{
+  height: 100px;
+  width: 100px;
+  background-color: yellow;
+  position: fixed;
+  margin-left:0;
+  margin-top: 0;
+
+}

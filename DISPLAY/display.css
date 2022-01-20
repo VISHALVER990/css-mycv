@@ -1,0 +1,16 @@
+p{
+  background-color: red;
+  display: inline-block;
+  width:100%;
+}
+span{
+  background-color: blue;
+  display: block;
+
+}
+.second-p
+{
+  /*display:none;*/
+  visibility: hidden;
+}
+/*-- images are inline block element-->*/
